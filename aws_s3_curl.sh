@@ -91,7 +91,6 @@ function check_distribution() {
 }
 check_distribution
 
-
 # send a put request to amazon's api gateway with resource permissions to upload
 # a file to the s3 bucket. 
 DATE=$(date -R)
