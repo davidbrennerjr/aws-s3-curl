@@ -39,7 +39,7 @@
 
 # check number of arguments
 function check_args() {
-  if [ "$BASH_ARGC" != "5" ]; then
+  if [ "$BASH_ARGC" != "4" ]; then
     echo -e "FAILURE: Script has missing/invalid options\n"
     echo -e "Usage: # ./aws_s3_curl.sh NameOfS3Bucket AccessKeyID SecretKey /path/to/file\n"
     exit 1
